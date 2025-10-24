@@ -1,0 +1,96 @@
+formulärt föreläsning
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Café Choco-Latte</title>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet" >
+  </head>
+
+  <body>
+  <main>
+    <h1> Café Choco-Latte </h1>
+    <h2> Fantastiskt kaffe & läckra bakverk </h2>
+    <p> Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet när du kliver in genom dörren. 
+        Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.  
+        Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe och kakoodlarna. </p> 
+    
+    <nav>
+      <ul>
+        <li> <a href="../index.html"> Hem</a> </li>
+        <li> <a href="chokladprovning.html"> Chokladprovning</a>
+          <ul>
+            <li> <a href="bokningssidan.html"> Boka chokladprovning </a> </li>
+          </ul>
+        </li>
+        <li> <a href="kakaoträdet.html"> Om kakaoträdet</a> </li>
+      </ul>
+    </nav>
+    
+    <hr> 
+    
+    <h2> Boka Chokladprovning</h2>
+    
+    <fieldset>
+    <legend> Välj datum: </legend> 
+    <input type="radio" name="dates" value="30april" id="30april">
+    <label for="30april"> 30 april </label> <br>
+
+    <input type="radio" name="dates" value="2maj" id="2maj">
+    <label for="2maj"> 2 maj </label> <br>
+
+    <input type="radio" name="dates" value="7maj" id="7maj">
+    <label for="7maj"> 7 maj </label> <br>
+
+    <input type="radio" name="dates" value="9maj" id="9maj">
+    <label for="9maj"> 9 maj </label> <br>
+
+    <input type="radio" name="dates" value="14maj" id="14maj">
+    <label for="14maj"> 14 maj </label> <br>
+
+    <input type="radio" name="dates" value="16maj" id="16maj">
+    <label for="16maj"> 16 maj </label> <br>
+    </fieldset> 
+
+
+    <fieldset>
+    <legend> Välj antal personer: </legend>
+        <select name="amount">
+          <option value="1" selected> 1</option>
+          <option value="2"> 2</option>
+          <option value="3"> 3</option>
+          <option value="4"> 4</option>
+        </select>
+    </fieldset>    
+
+    <fieldset>
+    <legend> Fyl i dina uppgifter: </legend> 
+        <label for="Namn"> Namn</label>
+        <input type="text" name="name" id="Namn"> <br>
+
+        <label for="Email"> Email</label>
+        <input type="text" name="email" id="Email" maxlength="30"> <br>
+
+        <label for="Mobilnummer"> Mobilnummer</label>
+        <input type="number" name="mobilenumber" id="Mobilnummer"> <br>
+
+        <label for="Message"> meddelanden du har: </label> <br>
+        <textarea name="message" rows="5" cols="35" id="Message" >
+          Meddelande här
+        </textarea>
+    </fieldset>
+
+    <p>
+      <input type="submit" value="Boka tid">
+    </p>
+  
+    <hr> 
+  </main>
+
+  <footer>
+    <small> Copyright 2022 &copy; Café Choco-Latte </small>
+  </footer>
+
+  </body>
+</html>
